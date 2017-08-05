@@ -17,7 +17,7 @@ public class ex1 {
         int numVal = 0;
 
         try{
-            // Get number by User
+            // Get number by User Using Scanner
             System.out.print("정수를 입력하시오. : ");
             numVal = sc.nextInt();
 
