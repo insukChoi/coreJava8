@@ -8,7 +8,7 @@ public class EmployeeMain {
         Measurable e2 = new Employee("GD", 6000000);      // 직원 2
         Measurable e3 = new Employee("INSUK",10000000);   // 직원 3
 
-        Measurable[] measurables = {};
+        Measurable[] measurables = {e1 , e2, e3};
 
         System.out.println(" 평균 급여 : "+ average(measurables) + "원");
         System.out.println(" 급여가 가장 높은 사람 : "+  ((Employee) largest(measurables)).getName());
